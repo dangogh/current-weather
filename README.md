@@ -4,7 +4,7 @@
 
 Only a single endpoint is supported which takes lat,long parameters in floating point format.
 
-Examples:
+## Examples:
 ```
 $ go run ./cmd/current-weather &
 
@@ -24,3 +24,12 @@ $ curl http://localhost:8080?lat=40.945454&long=-78.975175 | jq .
   "shortForecast": "Mostly Sunny"
 }
 ```
+
+## Possible future enhancements
+- separate NWS client code to separate package
+- alternate port
+- location by city,state
+- add TLS
+- create docker image
+- helm deployment
+- add [letsencrypt](https://letsencrypt.org/)
