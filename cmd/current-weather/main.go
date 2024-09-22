@@ -1,6 +1,6 @@
 package main
 
-// weather-forecast provides a simple http service returning a general description
+// current-weather provides a simple http service returning a general description
 // of the current conditions at the given location.  See README.md for details.
 
 import (

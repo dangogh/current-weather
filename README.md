@@ -6,6 +6,8 @@ Only a single endpoint is supported which takes lat,long parameters in floating 
 
 Examples:
 ```
+$ go run ./cmd/current-weather &
+
 # Palm Springs, CA
 $ curl http://localhost:8080?lat=33.822666&long=-116.531418 | jq .
 {
