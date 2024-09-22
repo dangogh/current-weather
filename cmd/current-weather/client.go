@@ -6,7 +6,12 @@ import (
 	"net/http"
 )
 
-// WeatherClient provides limited access to the National Weather Service API
+const (
+	// URL for the National Weather Service (NWS) API
+	weatherBaseURL = "https://api.weather.gov"
+)
+
+// WeatherClient provides limited access to the NWS API
 type WeatherClient struct {
 	baseurl string
 }

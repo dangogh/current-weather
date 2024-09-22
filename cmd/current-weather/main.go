@@ -13,7 +13,6 @@ import (
 const (
 	latitudeKeyword  = "lat"
 	longitudeKeyword = "long"
-	weatherBaseURL   = "https://api.weather.gov"
 )
 
 // WeatherResponse is the data returned from this service indicating the
