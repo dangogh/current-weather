@@ -26,9 +26,9 @@ $ curl http://localhost:8080?lat=40.945454&long=-78.975175 | jq .
 ```
 
 ## Possible future enhancements
-- separate NWS client code to separate package
+- move NWS client code to separate package
 - alternate port
-- location by city,state
+- location by city,state or zip code
 - add TLS
 - create docker image
 - helm deployment
